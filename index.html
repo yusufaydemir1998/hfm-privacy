@@ -1,21 +1,72 @@
-<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Head Dosya Yöneticisi – Gizlilik Politikası</title>
-<style>body{font-family:system-ui,sans-serif;max-width:720px;margin:2rem auto;padding:0 1rem;line-height:1.6;color:#222}h1{font-size:1.6rem}h2{font-size:1.15rem;margin-top:1.6rem}</style></head><body>
+<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Head Dosya Yöneticisi – Gizlilik Politikası / Privacy Policy</title>
+<style>body{font-family:system-ui,sans-serif;max-width:720px;margin:2rem auto;padding:0 1rem;line-height:1.6;color:#222}h1{font-size:1.6rem}h2{font-size:1.15rem;margin-top:1.6rem}hr{margin:2.5rem 0;border:0;border-top:1px solid #ccc}nav a{margin-right:1rem}</style></head><body>
+<nav><a href="#tr">Türkçe</a><a href="#en">English</a></nav>
+
+<section id="tr" lang="tr">
 <h1>Head Dosya Yöneticisi – Gizlilik Politikası</h1>
-<p>Son güncelleme: 8 Kasım 2026<br>Geliştirici: KingRider Apps<br>İletişim: yusufaydemir.elk@gmail.com</p>
-<h2>Genel</h2><p>Head Dosya Yöneticisi, cihazındaki dosyaları yönetmen için geliştirilmiş bir dosya yöneticisidir. Uygulama kişisel verilerini geliştiriciye veya üçüncü taraflara göndermez, satmaz ve paylaşmaz. Uygulamada reklam, analiz (analytics) veya izleme kütüphanesi yoktur.</p>
+<p>Son güncelleme: 9 Kasım 2026<br>Geliştirici: KingRider Apps<br>İletişim: yusufaydemir.elk@gmail.com</p>
+
+<h2>Genel</h2><p>Head Dosya Yöneticisi, cihazındaki dosyaları yönetmen için geliştirilmiş bir dosya yöneticisidir. Uygulama kişisel verilerini geliştiriciye veya üçüncü taraflara göndermez, satmaz ve paylaşmaz. Uygulamada reklam, analiz (analytics) veya izleme kütüphanesi yoktur. Uygulama kendi sunucusu olan bir hizmet değildir; geliştiricinin verilerine erişebileceği bir sunucu yoktur.</p>
+
 <h2>Cihazda tutulan bilgiler</h2><ul>
 <li>Ayarlar (tema, görünüm, favori klasörler vb.) yalnızca cihazında, uygulamanın özel alanında saklanır. Uygulama bulut yedeklemesine kapalıdır.</li>
-<li>Ağ bağlantısı (FTP/SMB) bilgilerini sen girersen cihazında saklanır ve yalnızca belirttiğin sunucuya bağlanmak için kullanılır.</li>
+<li>Ağ bağlantısı (FTP, SMB, WebDAV) bilgilerini sen girersen cihazında saklanır ve yalnızca belirttiğin sunucuya bağlanmak için kullanılır.</li>
 <li>Kasa özelliğindeki dosyalar parolanla şifrelenir (AES-256). Parolayı unutursan dosyalar kurtarılamaz; parolayı geliştirici bilemez.</li>
-<li>Çöp kutusu, son açılanlar ve olası çökme kayıtları yalnızca cihazında tutulur ve gönderilmez.</li></ul>
+<li>Uygulama kilidi PIN'i ya da deseni cihazında yalnızca tek yönlü özet (hash) olarak saklanır.</li>
+<li>Çöp kutusu, son açılanlar, çalma geçmişi ve çökme kayıtları yalnızca cihazında tutulur ve otomatik olarak hiçbir yere gönderilmez.</li></ul>
+
+<h2>Dropbox</h2><p>Dropbox hesabını bağlamayı seçersen giriş Dropbox'ın kendi sayfasında yapılır; parolan uygulamaya verilmez. Dropbox'ın verdiği erişim anahtarı yalnızca cihazında saklanır. Dosyalar doğrudan cihazın ile Dropbox arasında aktarılır, geliştiriciden geçmez. Bu aktarımlarda Dropbox'ın gizlilik politikası geçerlidir. Bağlantıyı istediğin an uygulamadan kaldırabilirsin.</p>
+
+<h2>Sorun bildir</h2><p>Ayarlar'daki "Sorun bildir" ya da bir çökmeden sonra çıkan "Bildir" düğmesini kullanırsan uygulama bir rapor hazırlar. Rapor; uygulama ve Android sürümünü, cihaz modelini, ekran ve dil bilgisini, depolama birimlerinin durumunu (boş alan, okuma/yazma, dosya sistemi) ve varsa son çökme kayıtlarını içerir. Dosyalarının içeriği rapora eklenmez; hata kayıtlarında dosya ya da klasör yolları geçebilir. Rapor <b>yalnızca sen istersen</b>, gönderilmeden önce görebildiğin paylaşım ekranından ve <b>kendi seçtiğin uygulamayla</b> (ör. e-posta) gönderilir; uygulama kendiliğinden hiçbir şey göndermez. Bir kopyası ayrıca cihazındaki Download klasörüne kaydedilir. Bana ulaşan raporlar yalnızca sorunu çözmek için kullanılır, üçüncü taraflarla paylaşılmaz ve iş bitince silinir.</p>
+
 <h2>İzinler ve kullanım amaçları</h2><ul>
-<li><b>Tüm dosyalara erişim:</b> Dosya ve klasörleri listelemek, kopyalamak, taşımak, silmek ve arşivlemek için gerekir. Dosyalar cihazından dışarı gönderilmez.</li>
-<li><b>İnternet / ağ erişimi:</b> Yalnızca senin başlattığın FTP/SMB bağlantıları ve yerel ağdaki "Wi-Fi ile aktar" özelliği içindir.</li>
+<li><b>Tüm dosyalara erişim:</b> Dosya ve klasörleri listelemek, açmak, kopyalamak, taşımak, silmek ve arşivlemek için gerekir. Dosyalar cihazından dışarı gönderilmez.</li>
+<li><b>İnternet / ağ erişimi:</b> Yalnızca senin başlattığın FTP/SMB/WebDAV ve Dropbox bağlantıları ile yerel ağdaki "Wi-Fi ile aktar" özelliği içindir.</li>
 <li><b>Mikrofon (RECORD_AUDIO):</b> Müzik çalarken ses görselleştirici için sistemin ses analiz aracı bu izni ister. Uygulama ses KAYDETMEZ, saklamaz ve göndermez.</li>
-<li><b>Bildirimler:</b> Müzik oynatıcı, Wi-Fi paylaşımı, dosya işlemleri ve USB bildirimleri için.</li>
+<li><b>Bildirimler ve ön plan hizmeti:</b> Müzik oynatıcı, Wi-Fi paylaşımı, dosya işlemleri ve USB bildirimleri için.</li>
+<li><b>Cihaz açılınca çalışma (RECEIVE_BOOT_COMPLETED):</b> Yalnızca "açılışta müziğe devam et" ayarını açarsan, cihaz açıldığında kaldığın parçadan devam etmek için kullanılır.</li>
+<li><b>Biyometrik doğrulama:</b> Kasayı parmak iziyle açmayı seçersen kullanılır. Parmak izi doğrulamasını Android sistemi yapar; uygulama parmak izi verisine hiçbir zaman erişemez.</li>
 <li><b>Uygulama yükleme isteme:</b> Dokunduğun bir APK dosyasını yükleyebilmen içindir. Yükleme her zaman senin onayınla, sistemin yükleyicisi üzerinden yapılır.</li></ul>
-<h2>Wi-Fi ile aktar</h2><p>Bu özelliği sen başlatırsan telefon yerel ağda geçici bir web sunucusu açar. Erişim PIN ile korunur. Bağlantı yerel ağ içindedir ve şifrelenmemiş HTTP kullanır; yalnızca güvendiğin bir ağda kullanmanı öneririz. İşin bitince "Durdur" ile kapatabilirsin; ayrıca belirli bir süre boşta kalınca otomatik kapanacak şekilde ayarlayabilirsin.</p>
+
+<h2>Wi-Fi ile aktar</h2><p>Bu özelliği sen başlatırsan cihaz yerel ağda geçici bir web sunucusu açar. Erişim PIN ile korunur. Bağlantı yerel ağ içindedir ve şifrelenmemiş HTTP kullanır; yalnızca güvendiğin bir ağda kullanmanı öneririz. İşin bitince "Durdur" ile kapatabilirsin; ayrıca belirli bir süre boşta kalınca otomatik kapanacak şekilde ayarlayabilirsin.</p>
+
 <h2>Çocuklar</h2><p>Uygulama çocuklara yönelik değildir ve kişisel veri toplamaz.</p>
 <h2>Değişiklikler</h2><p>Bu politika güncellenebilir. Güncel sürüm bu sayfada yayınlanır.</p>
 <h2>İletişim</h2><p>Sorular için: yusufaydemir.elk@gmail.com</p>
+</section>
+
+<hr>
+
+<section id="en" lang="en">
+<h1>Head File Manager – Privacy Policy</h1>
+<p>Last updated: November 9, 2026<br>Developer: KingRider Apps<br>Contact: yusufaydemir.elk@gmail.com</p>
+
+<h2>Overview</h2><p>Head File Manager is a file manager for managing the files on your device. The app does not send, sell or share your personal data with the developer or any third party. It contains no advertising, analytics or tracking libraries. The app has no server of its own; there is no server where the developer could access your data.</p>
+
+<h2>Information stored on your device</h2><ul>
+<li>Settings (theme, layout, favourite folders, etc.) are stored only on your device, in the app's private storage. Cloud backup is disabled for the app.</li>
+<li>Network connection details (FTP, SMB, WebDAV) that you enter are stored on your device and used only to connect to the server you specify.</li>
+<li>Files in the Vault are encrypted with your password (AES-256). If you forget the password the files cannot be recovered; the developer cannot know your password.</li>
+<li>The app-lock PIN or pattern is stored on your device only as a one-way hash.</li>
+<li>The trash, recently opened files, play history and crash logs are kept only on your device and are never sent anywhere automatically.</li></ul>
+
+<h2>Dropbox</h2><p>If you choose to connect a Dropbox account, you sign in on Dropbox's own page; your password is never given to the app. The access token issued by Dropbox is stored only on your device. Files are transferred directly between your device and Dropbox and never pass through the developer. Dropbox's privacy policy applies to these transfers. You can remove the connection from the app at any time.</p>
+
+<h2>Report a problem</h2><p>If you use "Report a problem" in Settings, or the "Report" button shown after a crash, the app prepares a report. It contains the app and Android version, device model, screen and language information, the state of storage volumes (free space, read/write status, file system) and, if any, recent crash logs. The contents of your files are not included; file or folder paths may appear in error logs. The report is sent <b>only if you choose to</b>, through a share screen where you can see it first, and <b>with an app you pick</b> (e.g. email); the app never sends anything on its own. A copy is also saved to the Download folder on your device. Reports I receive are used only to fix the problem, are not shared with third parties and are deleted once resolved.</p>
+
+<h2>Permissions and why they are used</h2><ul>
+<li><b>All files access:</b> Needed to list, open, copy, move, delete and archive files and folders. Your files are not sent off the device.</li>
+<li><b>Internet / network access:</b> Only for FTP/SMB/WebDAV and Dropbox connections that you start, and for the local-network "Wi-Fi transfer" feature.</li>
+<li><b>Microphone (RECORD_AUDIO):</b> The system's audio analysis tool used by the music visualizer requires this permission. The app does NOT record, store or send audio.</li>
+<li><b>Notifications and foreground service:</b> For the music player, Wi-Fi transfer, file operations and USB notifications.</li>
+<li><b>Run at startup (RECEIVE_BOOT_COMPLETED):</b> Used only if you turn on "resume music at startup", to continue from where you left off when the device starts.</li>
+<li><b>Biometric authentication:</b> Used if you choose to unlock the Vault with your fingerprint. Fingerprint verification is done by Android; the app never has access to fingerprint data.</li>
+<li><b>Request install packages:</b> Lets you install an APK file you tap. Installation always happens with your confirmation, through the system installer.</li></ul>
+
+<h2>Wi-Fi transfer</h2><p>If you start this feature, the device opens a temporary web server on your local network. Access is protected by a PIN. The connection stays within your local network and uses unencrypted HTTP, so we recommend using it only on networks you trust. You can close it with "Stop" when you are done, and it can also be set to stop automatically after a period of inactivity.</p>
+
+<h2>Children</h2><p>The app is not directed at children and does not collect personal data.</p>
+<h2>Changes</h2><p>This policy may be updated. The current version is always published on this page.</p>
+<h2>Contact</h2><p>Questions: yusufaydemir.elk@gmail.com</p>
+</section>
 </body></html>
