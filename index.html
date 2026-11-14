@@ -17,11 +17,13 @@
 
 <h2>Dropbox</h2><p>Dropbox hesabını bağlamayı seçersen giriş Dropbox'ın kendi sayfasında yapılır; parolan uygulamaya verilmez. Dropbox'ın verdiği erişim anahtarı yalnızca cihazında saklanır. Dosyalar doğrudan cihazın ile Dropbox arasında aktarılır, geliştiriciden geçmez. Bu aktarımlarda Dropbox'ın gizlilik politikası geçerlidir. Bağlantıyı istediğin an uygulamadan kaldırabilirsin.</p>
 
+<h2>OneDrive</h2><p>OneDrive hesabını bağlamayı seçersen giriş Microsoft'un kendi sayfasında yapılır; parolan uygulamaya verilmez. Giriş bitince Microsoft tarayıcıyı cihazın kendi içindeki geçici bir adrese (localhost) yönlendirir; uygulama giriş kodunu buradan alır ve bu adres giriş tamamlanınca kapanır. Microsoft'un verdiği erişim anahtarı yalnızca cihazında saklanır. Dosyalar doğrudan cihazın ile OneDrive arasında aktarılır, geliştiriciden geçmez. Bu aktarımlarda Microsoft'un gizlilik bildirimi geçerlidir. Bağlantıyı istediğin an uygulamadan kaldırabilirsin.</p>
+
 <h2>Sorun bildir</h2><p>Ayarlar'daki "Sorun bildir" ya da bir çökmeden sonra çıkan "Bildir" düğmesini kullanırsan uygulama bir rapor hazırlar. Rapor; uygulama ve Android sürümünü, cihaz modelini, ekran ve dil bilgisini, depolama birimlerinin durumunu (boş alan, okuma/yazma, dosya sistemi) ve varsa son çökme kayıtlarını içerir. Dosyalarının içeriği rapora eklenmez; hata kayıtlarında dosya ya da klasör yolları geçebilir. Rapor <b>yalnızca sen istersen</b>, gönderilmeden önce görebildiğin paylaşım ekranından ve <b>kendi seçtiğin uygulamayla</b> (ör. e-posta) gönderilir; uygulama kendiliğinden hiçbir şey göndermez. Bir kopyası ayrıca cihazındaki Download klasörüne kaydedilir. Bana ulaşan raporlar yalnızca sorunu çözmek için kullanılır, üçüncü taraflarla paylaşılmaz ve iş bitince silinir.</p>
 
 <h2>İzinler ve kullanım amaçları</h2><ul>
 <li><b>Tüm dosyalara erişim:</b> Dosya ve klasörleri listelemek, açmak, kopyalamak, taşımak, silmek ve arşivlemek için gerekir. Dosyalar cihazından dışarı gönderilmez.</li>
-<li><b>İnternet / ağ erişimi:</b> Yalnızca senin başlattığın FTP/SMB/WebDAV ve Dropbox bağlantıları ile yerel ağdaki "Wi-Fi ile aktar" özelliği içindir.</li>
+<li><b>İnternet / ağ erişimi:</b> Yalnızca senin başlattığın FTP/SFTP/SMB/WebDAV, Dropbox ve OneDrive bağlantıları ile yerel ağdaki "Wi-Fi ile aktar" özelliği içindir.</li>
 <li><b>Bildirimler ve ön plan hizmeti:</b> Müzik oynatıcı, Wi-Fi paylaşımı, dosya işlemleri ve USB bildirimleri için.</li>
 <li><b>Cihaz açılınca çalışma (RECEIVE_BOOT_COMPLETED):</b> Yalnızca "açılışta müziğe devam et" ayarını açarsan, cihaz açıldığında kaldığın parçadan devam etmek için kullanılır.</li>
 <li><b>Mikrofon:</b> Uygulama mikrofon izni istemez.</li>
@@ -52,11 +54,13 @@
 
 <h2>Dropbox</h2><p>If you choose to connect a Dropbox account, you sign in on Dropbox's own page; your password is never given to the app. The access token issued by Dropbox is stored only on your device. Files are transferred directly between your device and Dropbox and never pass through the developer. Dropbox's privacy policy applies to these transfers. You can remove the connection from the app at any time.</p>
 
+<h2>OneDrive</h2><p>If you choose to connect a OneDrive account, you sign in on Microsoft's own page; your password is never given to the app. After sign-in Microsoft redirects the browser to a temporary address inside your device (localhost), where the app receives the sign-in code; this address closes once sign-in is complete. The access token issued by Microsoft is stored only on your device. Files are transferred directly between your device and OneDrive and never pass through the developer. Microsoft's privacy statement applies to these transfers. You can remove the connection from the app at any time.</p>
+
 <h2>Report a problem</h2><p>If you use "Report a problem" in Settings, or the "Report" button shown after a crash, the app prepares a report. It contains the app and Android version, device model, screen and language information, the state of storage volumes (free space, read/write status, file system) and, if any, recent crash logs. The contents of your files are not included; file or folder paths may appear in error logs. The report is sent <b>only if you choose to</b>, through a share screen where you can see it first, and <b>with an app you pick</b> (e.g. email); the app never sends anything on its own. A copy is also saved to the Download folder on your device. Reports I receive are used only to fix the problem, are not shared with third parties and are deleted once resolved.</p>
 
 <h2>Permissions and why they are used</h2><ul>
 <li><b>All files access:</b> Needed to list, open, copy, move, delete and archive files and folders. Your files are not sent off the device.</li>
-<li><b>Internet / network access:</b> Only for FTP/SMB/WebDAV and Dropbox connections that you start, and for the local-network "Wi-Fi transfer" feature.</li>
+<li><b>Internet / network access:</b> Only for FTP/SFTP/SMB/WebDAV, Dropbox and OneDrive connections that you start, and for the local-network "Wi-Fi transfer" feature.</li>
 <li><b>Notifications and foreground service:</b> For the music player, Wi-Fi transfer, file operations and USB notifications.</li>
 <li><b>Run at startup (RECEIVE_BOOT_COMPLETED):</b> Used only if you turn on "resume music at startup", to continue from where you left off when the device starts.</li>
 <li><b>Microphone:</b> The app does not request microphone permission.</li>
